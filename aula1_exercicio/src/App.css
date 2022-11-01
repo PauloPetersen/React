@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header {
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.bio button {
+  background-color: gold;
+  font-size: large;
+  color: deeppink;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+
+}
+
+.bio button:hover {
+  opacity: 75%;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
